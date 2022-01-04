@@ -2,6 +2,12 @@
 
 Useful templates for your autotools needs!
 
+## What is autotools?
+
+Autotools is composed of 3 programs developed by the GNU organization: aclocal, that checks on what software is installed on your machine to use it, autoconf, that configures the build environment for the compilation, and automake, that generates a makefile to build your program.
+
+If you want to learn more about Autotools, you can read its [official documentation](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html).
+
 * [Getting Started](#getting-started)
   * [Install dependencies](#install-dependencies)
   * [Download the files](#download-the-files)
