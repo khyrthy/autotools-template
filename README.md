@@ -40,13 +40,14 @@ Then you'll just need to download this repository in your project.
 Just use these commands:
 ```bash
 git submodule add https://github.com/khyrthy/autotools-template
+rm autotools-template/README.md
 mv autotools-template/* .
 ```
 
 ### Preparing the build
 
 To prepare the build, you'll need to run these 3 commands:
-```bash
+```
 aclocal
 autoconf
 automake --add-missing
